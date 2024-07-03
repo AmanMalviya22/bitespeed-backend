@@ -61,7 +61,7 @@ Returns a welcome message when you make a request with  http://localhost:3000.
 ![image](https://github.com/AmanMalviya22/bitespeed-backend/assets/94959490/44e35fe8-a374-4142-b752-cce2bc7076e7)
 
 
- Make a request on postman with url http://localhost:3000/identify  and set response body in below format.
+ Make a request on postman with url http://localhost:3000/identify or https://bitespeed-backend-sb9l.onrender.com/identify and set response body in below format.
  {
 "email":"<your email>",
 "phoneNumber": "<your phone no>"
