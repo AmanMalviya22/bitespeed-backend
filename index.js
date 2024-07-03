@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
     res.send(`<h1 style="color:red">Hello, this is the Bitespeed Backend API!</h1>`);
   });
 
-mongoose.connect('mongodb+srv://aman:a#1009998@A@bitespeed.xau2fam.mongodb.net/?retryWrites=true&w=majority&appName=bitespeed', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://aman:a%231009998%40A@bitespeed.xau2fam.mongodb.net/?appName=bitespeed", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(port, () => console.log(`App running on port ${port}`)))
   .catch(err => console.error(err));
